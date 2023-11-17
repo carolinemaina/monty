@@ -58,8 +58,6 @@ typedef struct bus_s
 
 extern bus_t bus;
 
-bus_t bus = {NULL, NULL, NULL, 0};
-
 #define LINE_LENGTH 1024
 
 void push_file(stack_t **head, unsigned int i);
